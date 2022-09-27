@@ -11,8 +11,9 @@ yarn dev</pre>
 ### Prerequisites
 
 * npm install --save-dev sass
-* install your sass extension up
-* set 'path sass config' on 'vscode json settings file'
+* install the sass watching extension
+* set 'sass parse config' on 'vscode json settings file'
+* push the extension up to watch your sass file
 
 
 
