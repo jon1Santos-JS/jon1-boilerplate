@@ -1,7 +1,8 @@
-.l-welcome{
-    display: grid;
-    height: 80vh;
-    place-items: center;
-    font-size: 2rem;
-    border: solid 2px black;
-}
+@forward 'settings';
+@forward 'tools';
+@forward 'base';
+@forward 'elements';
+@forward 'objects';
+@forward 'components';
+@forward 'state';
+
