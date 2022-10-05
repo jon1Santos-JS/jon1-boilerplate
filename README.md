@@ -15,5 +15,10 @@ yarn dev</pre>
 * set 'sass parse config' on 'vscode json settings file'
 * push the extension up to watch your sass file
 
+### PostCSS-plugins
+
+*postcss-pxtorem
+*postcss-preset-env
+*postcss-flexbugs-fixes
 
 

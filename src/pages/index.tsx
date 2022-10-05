@@ -12,7 +12,6 @@ const Home: NextPage = () => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
             <main className="l-welcome">
                 seja bem vindo ao jon1_boilerplate
             </main>
