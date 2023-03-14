@@ -17,7 +17,7 @@ yarn dev</pre>
 
 ### PostCSS-plugins
 
-*postcss-pxtorem
+*postcss-pxtorem /n
 *postcss-preset-env
 *postcss-flexbugs-fixes
 
