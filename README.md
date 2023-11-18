@@ -1,14 +1,16 @@
 ## Installing / Getting started
 
 * First, install dev dependencies
+```javascript
 <pre>npm install --save-dev sass @types/prettier @typescript-eslint/eslint-plugin 
 @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks 
 prettier stylelint stylelint-config-sass-guidelines stylelint-config-standard-scss stylelint-order 
 stylelint-prettier</pre>
+```
 
 * Second, install base dependencies
 ```javascript
-npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem \n
+npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem
 ```
 
 
