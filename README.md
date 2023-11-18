@@ -7,7 +7,7 @@ prettier stylelint stylelint-config-sass-guidelines stylelint-config-standard-sc
 stylelint-prettier</pre>
 
 * Second, install base dependencies
-* <pre>npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem</pre>
+<summary>npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem</summary>
 
 ### Prerequisites
 
