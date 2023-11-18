@@ -1,4 +1,4 @@
-## Installing / Getting started
+### Install
 
 * First, install dev dependencies
 ```javascript
@@ -9,7 +9,14 @@ npm install --save-dev sass @types/prettier @typescript-eslint/eslint-plugin @ty
 npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem
 ```
 
-### Prerequisites
+### NextJs Prerequisites
+* app/layout.tsx (next/app) / pages/_app.tsx (next/page)
+```javascript
+import '../../styles/sass/index.scss';
+```
+
+
+### Raw Prerequisites
 
 * install the sass watching extension
 * set 'sass parse config' on 'vscode json settings file'
