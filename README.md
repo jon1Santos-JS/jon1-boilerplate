@@ -8,7 +8,7 @@ stylelint-prettier</pre>
 
 * Second, install base dependencies
 ```javascript
-<summary>npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem</summary>
+npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem
 
 ### Prerequisites
 
