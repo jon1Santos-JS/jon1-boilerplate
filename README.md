@@ -1,12 +1,39 @@
+<div align="center">
+
+<img src="https://i.ibb.co/4jsL4w2/logo.png" alt="Joni Boilerplate Logo" />
+
+</div>
+
+<div align="center">
+
+[![npm](https://img.shields.io/npm/l/react-hook-form?style=for-the-badge)](https://github.com/jon1Santos-JS/jon1-boilerplate/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/validate-hook?style=for-the-badge)](https://www.npmjs.com/package/jon1-boilerplate)
+
+</div>
+
 ### Install
 
-* First, install dev dependencies
+* Install boilerplate
 ```javascript
-npm install --save-dev sass @types/prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks prettier stylelint stylelint-config-sass-guidelines stylelint-config-standard-scss stylelint-order stylelint-prettier
+npx jon1-boilerplate
 ```
-* Second, install base dependencies
+* Install dependecies
+```javascript
+npm install
+```
+
+### Error in the above instalation
+* Clone
+```javascript
+git clone https://github.com/jon1Santos-JS/jon1-boilerplate
+```
+* Install dependencies manually
 ```javascript
 npm install postcss-flexbugs-fixes postcss-preset-env postcss-pxtorem
+```
+* Install dev dependencies manually
+```javascript
+npm install --save-dev sass @types/prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-hooks prettier stylelint stylelint-config-sass-guidelines stylelint-config-standard-scss stylelint-order stylelint-prettier
 ```
 
 ### NextJs Prerequisites
