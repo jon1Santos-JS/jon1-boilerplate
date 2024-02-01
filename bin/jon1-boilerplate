@@ -1,0 +1,56 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+// Pasta do template
+const templatePath = path.join(__dirname, '..');
+
+// Pasta de destino (pasta onde o comando npx foi executado)
+const destinationPath = process.cwd();
+
+// Lista de arquivos a serem excluídos
+const excludeFiles = ['.tgz', 'README.md', 'bin'];
+
+// Copiar os arquivos e pastas do template para o destino
+const copyTemplate = () => {
+  fs.readdirSync(templatePath).forEach(file => {
+    const sourceFile = path.join(templatePath, file);
+    const destFile = path.join(destinationPath, file);
+
+    // Verificar se o arquivo não está na lista de exclusão
+    if (!excludeFiles.includes(file)) {
+      if (fs.statSync(sourceFile).isDirectory()) {
+        fs.mkdirSync(destFile);
+        copyFolderRecursive(sourceFile, destFile);
+      } else {
+        fs.copyFileSync(sourceFile, destFile);
+      }
+    }
+  });
+};
+
+// Função para copiar pastas recursivamente
+const copyFolderRecursive = (source, destination) => {
+  fs.readdirSync(source).forEach(file => {
+    const sourceFile = path.join(source, file);
+    const destFile = path.join(destination, file);
+
+    // Verificar se o arquivo não está na lista de exclusão
+    if (!excludeFiles.includes(file)) {
+      if (fs.statSync(sourceFile).isDirectory()) {
+        fs.mkdirSync(destFile);
+        copyFolderRecursive(sourceFile, destFile);
+      } else {
+        fs.copyFileSync(sourceFile, destFile);
+      }
+    }
+  });
+};
+
+// Executar a cópia do template
+copyTemplate();
+
+execSync('npm install', { stdio: 'inherit' });
+
+console.log('Jon1-boilerplate installed successfully!');
