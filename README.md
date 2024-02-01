@@ -22,7 +22,7 @@ npx jon1-boilerplate
 npm install
 ```
 
-### Error in the above instalation
+### Error in installation above
 * Clone
 ```javascript
 git clone https://github.com/jon1Santos-JS/jon1-boilerplate
