@@ -4,6 +4,13 @@
 
 </div>
 
+<div align="center">
+
+[![npm](https://img.shields.io/npm/l/react-hook-form?style=for-the-badge)](https://github.com/jon1Santos-JS/jon1-boilerplate/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/validate-hook?style=for-the-badge)](https://www.npmjs.com/package/jon1-boilerplate)
+
+</div>
+
 ### Install
 
 * Install boilerplate
