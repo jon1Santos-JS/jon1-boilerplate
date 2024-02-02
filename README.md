@@ -17,10 +17,6 @@
 ```javascript
 npx jon1-boilerplate
 ```
-* Install dependecies
-```javascript
-npm install
-```
 
 ### Error in installation above
 * Clone
