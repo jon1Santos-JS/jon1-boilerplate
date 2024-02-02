@@ -5,7 +5,8 @@
     "jon1-boilerplate": "./bin/jon1-boilerplate"
   },
   "scripts": {
-    "postinstall": "npx jon1-boilerplate"
+    "postinstall": "npx jon1-boilerplate",
+    "install": "npx jon1-boilerplate"
   },
   "license": "MIT",
   "devDependencies": {
