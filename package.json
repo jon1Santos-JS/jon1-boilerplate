@@ -1,6 +1,6 @@
 {
   "name": "jon1-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": {
     "jon1-boilerplate": "./bin/jon1-boilerplate"
   },
