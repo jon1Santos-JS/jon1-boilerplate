@@ -4,7 +4,10 @@
   "bin": {
     "jon1-boilerplate": "./bin/jon1-boilerplate"
   },
-  "installMessage": "npx jon1-boilerplate",
+  "scripts": {
+    "postinstall": "npx jon1-boilerplate"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/prettier": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
