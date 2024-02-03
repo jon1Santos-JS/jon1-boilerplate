@@ -11,6 +11,14 @@
 
 </div>
 
+### Features
+
+* CSS Lint
+* JS Lint
+* React Lint
+* [PostCSS](https://postcss.org/)
+* Prettier
+
 ### Install
 
 * Install boilerplate
