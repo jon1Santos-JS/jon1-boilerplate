@@ -1,6 +1,6 @@
 {
   "name": "jon1-boilerplate",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "bin": {
     "jon1-boilerplate": "./bin/jon1-boilerplate"
   },
@@ -10,7 +10,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/prettier": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "eslint-config-prettier": "^9.1.0",
