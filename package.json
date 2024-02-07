@@ -1,6 +1,7 @@
 {
   "name": "jon1-boilerplate",
   "version": "1.0.9",
+  "description": "Boilerplate to start projects",
   "bin": {
     "jon1-boilerplate": "./bin/jon1-boilerplate"
   },
@@ -27,5 +28,16 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.3.0",
     "postcss-pxtorem": "^6.1.0"
-  }
+  },
+  "projects": [
+
+    "https://github.com/jon1Santos-JS/jon1-boilerplate"
+
+  ],
+  "owners": [
+        {
+            "name": "João Paulo",
+            "githubUsername": "jon1Santos"
+        }
+    ]
 }
