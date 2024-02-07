@@ -21,12 +21,7 @@
 
 ### Install
 
-* Install boilerplate globally
-```javascript
-npx jon1-boilerplate
-```
-
-* Install boilerplate files
+* Install boilerplate
 ```javascript
 npx jon1-boilerplate
 ```
